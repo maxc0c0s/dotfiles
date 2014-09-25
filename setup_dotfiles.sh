@@ -12,3 +12,8 @@ do
     mv ~/.$file ${DOT_BACK}
     ln -s $DIR/$file ~/.$file
 done
+
+# Install vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# Install plugins
+vim +PluginInstall +qall
