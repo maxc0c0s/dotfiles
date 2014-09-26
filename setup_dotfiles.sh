@@ -17,3 +17,7 @@ done
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # Install plugins
 vim +PluginInstall +qall
+
+# Virtualenvwrapper dir creation.
+mkdir -p ${HOME}/.virtualenvs
+mkdir -p ${HOME}/Projects

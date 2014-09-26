@@ -115,3 +115,8 @@ fi
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+# Virtualenvwrapper specifics
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Projects
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
