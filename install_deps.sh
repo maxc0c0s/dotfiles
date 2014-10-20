@@ -6,3 +6,6 @@ sudo apt-get install -y python-pip
 
 sudo pip install virtualenvwrapper
 sudo pip install cookiecutter
+sudo pip install coverage
+sudo pip install sphinx
+sudo pip install flake8
