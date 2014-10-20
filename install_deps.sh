@@ -9,3 +9,4 @@ sudo pip install cookiecutter
 sudo pip install coverage
 sudo pip install sphinx
 sudo pip install flake8
+sudo pip install tox
