@@ -5,3 +5,4 @@ sudo apt-get install -y vim
 sudo apt-get install -y python-pip
 
 sudo pip install virtualenvwrapper
+sudo pip install cookiecutter
