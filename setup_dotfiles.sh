@@ -21,4 +21,4 @@ vim +PluginInstall +qall
 # Virtualenvwrapper dir creation.
 mkdir -p ${HOME}/.virtualenvs
 mkdir -p ${HOME}/Projects
-source ~/.bashrc
+source $HOME/.bashrc
